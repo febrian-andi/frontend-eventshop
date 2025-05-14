@@ -1,7 +1,7 @@
 import { Button, Card, CardBody, Input, Spinner } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
-import useRegister from "../Auth/Register/useRegister";
+import useRegister from "./useRegister";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Controller } from "react-hook-form";
 import { cn } from '@/utils/cn';

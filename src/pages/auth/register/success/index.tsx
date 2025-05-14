@@ -1,10 +1,10 @@
 import AuthLayout from "@/components/layouts/AuthLayout";
-import Register from "@/components/views/Register";
+import RegisterSuccess from "@/components/views/Auth/RegisterSuccess/RegisterSuccess";
 
 const RegisterSuccessPage = () => {
   return (
     <AuthLayout title="EventShop | Register Success">
-      <h1>Register Success</h1>
+      <RegisterSuccess />
     </AuthLayout>
   );
 };
