@@ -20,7 +20,7 @@ const Activation = (props: PropTypes) => {
           height={150}
         />
         <Image
-          src={status === "success" ? "/images/illustration/email-send.svg" : "/images/illustration/pending.svg"}
+          src={status === "success" ? "/images/illustration/success.svg" : "/images/illustration/pending.svg"}
           alt="actibation-status-illustration"
           width={300}
           height={300}
