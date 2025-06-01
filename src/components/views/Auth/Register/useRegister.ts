@@ -49,6 +49,13 @@ const useRegister = () => {
     setError,
   } = useForm({
     resolver: yupResolver(registerSchema),
+    defaultValues: {
+      fullName: "",
+      userName: "",
+      email: "",
+      password: "",
+      confirmPassword: "",
+    }
   });
 
   const registerService = async (payload: IRegister) => {

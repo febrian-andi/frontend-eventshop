@@ -34,6 +34,10 @@ const useLogin = () => {
     setError,
   } = useForm({
     resolver: yupResolver(loginSchema),
+    defaultValues: {
+      identifier: "",
+      password: "",
+    },
   });
 
   const loginService = async (payload: ILogin) => {
